@@ -1,0 +1,5 @@
+birinci_fotograf = SELECTCOLUMNS(FILTER('son_dönem','son_dönem'[Sıralama] = 1),"Data",'son_dönem'[Foto Url])
+
+birinci_hg = SELECTCOLUMNS(FILTER('son_dönem','son_dönem'[Sıralama] =1 ),"Data3",'son_dönem'[H/G])
+
+birinci_isim = SELECTCOLUMNS(FILTER('son_dönem','son_dönem'[Sıralama] = 1 ),"Data2",'son_dönem'[Personel İsmi])
